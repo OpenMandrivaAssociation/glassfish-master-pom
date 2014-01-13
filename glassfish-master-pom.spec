@@ -1,4 +1,4 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          glassfish-master-pom
 Version:       8
 Release:       4.0%{?dist}
@@ -36,3 +36,17 @@ sed -i 's/\r//' LICENSE.txt
 
 %files -f .mfiles
 %doc LICENSE.txt
+
+%changelog
+* Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 8-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
+
+* Fri Jul 05 2013 gil cattaneo <puntogil@libero.it> 8-3
+- switch to XMvn
+- minor changes to adapt to current guideline
+
+* Thu May 02 2013 gil cattaneo <puntogil@libero.it> 8-2
+- fixed license tag
+
+* Sat Aug 25 2012 gil cattaneo <puntogil@libero.it> 8-1
+- initial rpm
