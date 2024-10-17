@@ -4,7 +4,7 @@ Version:       8
 Release:       4.0%{?dist}
 Summary:       Master POM for Glassfish Maven projects
 License:       CDDL or GPLv2 with exceptions
-URL:           http://glassfish.java.net/
+URL:           https://glassfish.java.net/
 # svn export https://svn.java.net/svn/glassfish~svn/tags/master-pom-8/ glassfish-master-pom-8
 # tar czf glassfish-master-pom-8-src-svn.tar.gz glassfish-master-pom-8
 Source0:       %{name}-%{version}-src-svn.tar.gz
